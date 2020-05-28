@@ -1,0 +1,22 @@
+{
+  "name": "chat-be",
+  "version": "0.0.1",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch './src/**/*.ts' --exec ts-node ./src/server.ts"
+  },
+  "author": "harisemail94@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.4",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
